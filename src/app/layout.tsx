@@ -1,0 +1,41 @@
+import type { Metadata } from "next";
+import { Geist, Geist_Mono } from "next/font/google";
+import "./globals.css";
+import Navbar from "../components/Navbar";
+import Footer from "../components/Footer";
+import { LanguageProvider } from "../contexts/LanguageContext";
+
+const geistSans = Geist({
+  variable: "--font-geist-sans",
+  subsets: ["latin"],
+});
+
+const geistMono = Geist_Mono({
+  variable: "--font-geist-mono",
+  subsets: ["latin"],
+});
+
+export const metadata: Metadata = {
+  title: "CAM NAKA CO., LTD. - Import & Export Mother and Baby Products",
+  description: "Your trusted partner in importing and exporting high-quality mother and baby products in Cambodia.",
+};
+
+export default function RootLayout({
+  children,
+}: Readonly<{
+  children: React.ReactNode;
+}>) {
+  return (
+    <html lang="en">
+      <body
+        className={`${geistSans.variable} ${geistMono.variable} antialiased bg-white dark:bg-gray-900 text-foreground dark:text-white transition-colors`}
+      >
+        <LanguageProvider>
+          <Navbar />
+          {children}
+          <Footer />
+        </LanguageProvider>
+      </body>
+    </html>
+  );
+}
