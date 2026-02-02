@@ -17,11 +17,11 @@ module.exports = {
         background: "hsl(var(--background))",
         foreground: "hsl(var(--foreground))",
         "cam-blue": "#2F80B7",
-        "naka-pink": "#D63A6C",
         "accent-orange": "#F2994A",
+        "naka-pink": "#EB5757",
         "accent-yellow": "#F2B94B",
-        "light-bg": "#F7F9FB",
-        "dark-text": "#1F2933",
+        "light-bg": "#2F80B7",
+        "dark-text": "#FFFFFF",
         card: {
           DEFAULT: "hsl(var(--card))",
           foreground: "hsl(var(--card-foreground))",
@@ -34,10 +34,7 @@ module.exports = {
           DEFAULT: "#2F80B7",
           foreground: "#FFFFFF",
         },
-        secondary: {
-          DEFAULT: "#D63A6C",
-          foreground: "#FFFFFF",
-        },
+
         muted: {
           DEFAULT: "#F7F9FB",
           foreground: "#1F2933",
@@ -46,16 +43,12 @@ module.exports = {
           DEFAULT: "#F2994A",
           foreground: "#1F2933",
         },
-        destructive: {
-          DEFAULT: "#D63A6C",
-          foreground: "#FFFFFF",
-        },
+
         border: "#E8EEF5",
         input: "#F7F9FB",
         ring: "#2F80B7",
         chart: {
           "1": "#2F80B7",
-          "2": "#D63A6C",
           "3": "#F2994A",
           "4": "#F2B94B",
           "5": "#1F2933",

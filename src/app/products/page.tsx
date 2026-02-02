@@ -103,20 +103,20 @@ export default function Products() {
   }, [brandPages.length]);
 
   return (
-    <div className="min-h-screen py-20 bg-white dark:bg-gray-950">
+    <div className="min-h-screen py-20 bg-background">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <h1 className="text-4xl font-bold text-center text-foreground dark:text-accent-orange mb-12 drop-shadow-sm">{t('ourProducts')}</h1>
-        <p className="text-lg text-foreground/80 dark:text-gray-300 text-center mb-12 max-w-3xl mx-auto">
+        <h1 className="text-4xl font-bold text-center text-foreground mb-12 drop-shadow-sm">{t('ourProducts')}</h1>
+        <p className="text-lg text-foreground/80 text-center mb-12 max-w-3xl mx-auto">
           {t('productsIntro')}
         </p>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {categories.map((category, index) => (
-            <div key={index} className="bg-white dark:bg-gray-800 rounded-lg shadow-md overflow-hidden hover:shadow-xl hover:scale-105 transition-all duration-300 border-t-4 border-cam-blue dark:border-accent-orange hover:border-t-8">
+            <div key={index} className="bg-card text-card-foreground rounded-lg shadow-md overflow-hidden hover:shadow-xl hover:scale-105 transition-all duration-300 border-t-4 border-primary hover:border-t-8">
               <Image src={category.image} alt={t(category.nameKey)} width={300} height={200} className="w-full h-48 object-cover" unoptimized />
               <div className="p-6">
-                <h3 className="text-xl font-semibold text-foreground dark:text-accent-orange mb-2">{t(category.nameKey)}</h3>
-                <p className="text-foreground/80 dark:text-gray-300">{t(category.descKey)}</p>
+                <h3 className="text-xl font-semibold text-foreground mb-2">{t(category.nameKey)}</h3>
+                <p className="text-foreground/80">{t(category.descKey)}</p>
               </div>
             </div>
           ))}
@@ -124,14 +124,14 @@ export default function Products() {
 
         <div className="mt-20">
           <div className="text-center">
-            <h2 className="text-3xl font-bold text-foreground dark:text-accent-orange mb-4 drop-shadow-sm">{t('ourBrands')}</h2>
-            <p className="text-lg text-foreground/80 dark:text-gray-300 max-w-3xl mx-auto">
+            <h2 className="text-3xl font-bold text-foreground mb-4 drop-shadow-sm">{t('ourBrands')}</h2>
+            <p className="text-lg text-foreground/80 max-w-3xl mx-auto">
               {t('brandsIntro')}
             </p>
           </div>
 
           <div className="mt-10">
-            <div className="overflow-hidden rounded-2xl bg-white dark:bg-gray-900 border border-gray-100 dark:border-gray-800 shadow-lg">
+            <div className="overflow-hidden rounded-2xl bg-card text-card-foreground border border-border shadow-lg">
               <div
                 className="flex transition-transform duration-700 ease-out"
                 style={{ transform: `translateX(-${brandIndex * 100}%)` }}
@@ -150,7 +150,7 @@ export default function Products() {
                               unoptimized
                             />
                           </div>
-                          <p className="text-foreground/80 dark:text-gray-300 text-sm font-medium text-center">{brand.name}</p>
+                          <p className="text-foreground/80 text-sm font-medium text-center">{brand.name}</p>
                         </div>
                       ))}
                     </div>
@@ -167,7 +167,7 @@ export default function Products() {
                   aria-label={`Brand page ${index + 1}`}
                   onClick={() => setBrandIndex(index)}
                   className={`h-2.5 w-2.5 rounded-full transition-all ${
-                    index === brandIndex ? "bg-cam-blue scale-110" : "bg-cam-blue/40 hover:bg-cam-blue/70"
+                    index === brandIndex ? "bg-primary scale-110" : "bg-primary/40 hover:bg-primary/70"
                   }`}
                 />
               ))}
@@ -176,7 +176,7 @@ export default function Products() {
         </div>
 
         <div className="mt-16 text-center">
-          <p className="text-foreground/60 dark:text-gray-400">
+          <p className="text-foreground/60">
             {t('placeholderNote')}
           </p>
         </div>

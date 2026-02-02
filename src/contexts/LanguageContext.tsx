@@ -13,8 +13,8 @@ interface Translations {
 
 const translations: Translations = {
   companyName: {
-    en: 'CAM NAKA CO., LTD.',
-    kh: 'ក្រុមហ៊ុន ខេម ណាកា ខូ.អិលធីឌី.',
+    en: 'CAM NAKA',
+    kh: 'ខេម ណាកា',
   },
   home: {
     en: 'Home',
@@ -26,7 +26,7 @@ const translations: Translations = {
   },
   products: {
     en: 'Our Products',
-    kh: 'ផលិតផលរបស់យើង',
+    kh: 'ផលិតផល',
   },
   contact: {
     en: 'Contact Us',
@@ -34,11 +34,11 @@ const translations: Translations = {
   },
   tagline: {
     en: 'Your Trusted Partner in Mother and Baby Products Import & Export',
-    kh: 'ដៃគូដែលអ្នកទុកចិត្តក្នុងការនាំចូលនិងនាំចេញផលិតផលអ្នកម្ដាយ និងទារក',
+    kh: 'ដៃគូដែលអ្នកទុកចិត្តក្នុងការនាំចូលនិងនាំចេញផលិតផលអ្នកមាតា និងទារក',
   },
   aboutIntro: {
     en: 'CAM NAKA CO., LTD. is a leading company specializing in the import and export of high-quality mother and baby products. Based in Phnom Penh, Cambodia, we are committed to providing safe, reliable, and affordable products to families across the region. Our mission is to ensure that every mother and child has access to the best products available.',
-    kh: 'ក្រុមហ៊ុន CAM NAKA CO., LTD. គឺជាក្រុមហ៊ុនជាច្រើនដែលមានឯកទេសក្នុងការនាំចូលនិងនាំចេញផលិតផលម្ដាយនិងកូនដែលមានគុណភាពខ្ពស់។ មានមូលដ្ឋាននៅទីក្រុងភ្នំពេញ ប្រទេសកម្ពុជា យើងប្តេជ្ញាចិត្តផ្តល់ផលិតផលដែលមានសុវត្ថិភាព ជឿជាក់ និងសមរម្យទៅកាន់គ្រួសារនានាក្នុងតំបន់។ បេសកកម្មរបស់យើងគឺដើម្បីធានាថាម្ដាយនិងកូននីមួយៗមានសិទ្ធិចូលប្រើផលិតផលល្អបំផុត។',
+    kh: 'ក្រុមហ៊ុន CAM NAKA CO., LTD. គឺជាក្រុមហ៊ុនជាច្រើនដែលមានឯកទេសក្នុងការនាំចូលនិងនាំចេញផលិតផលមាតា និងទារកដែលមានគុណភាពខ្ពស់។ មានមូលដ្ឋាននៅទីក្រុងភ្នំពេញ ប្រទេសកម្ពុជា យើងប្តេជ្ញាចិត្តផ្តល់ផលិតផលដែលមានសុវត្ថិភាព ជឿជាក់ និងសមរម្យទៅកាន់គ្រួសារនានាក្នុងតំបន់។ បេសកកម្មរបស់យើងគឺដើម្បីធានាថាម្ដាយនិងកូននីមួយៗមានសិទ្ធិចូលប្រើផលិតផលល្អបំផុត។',
   },
   ourHistory: {
     en: 'Our History',
@@ -46,7 +46,7 @@ const translations: Translations = {
   },
   historyText: {
     en: 'Founded in Phnom Penh, Cambodia, CAM NAKA CO., LTD. has been a pioneer in the import and export of mother and baby products for over a decade. Starting as a small family business, we have grown into a trusted name in the industry, serving customers across Cambodia and beyond. Our journey began with a simple mission: to provide high-quality, safe products for mothers and children at affordable prices. Through dedication and hard work, we have built strong partnerships with suppliers worldwide and established a reputation for excellence.',
-    kh: 'បានបង្កើតនៅទីក្រុងភ្នំពេញ ប្រទេសកម្ពុជា CAM NAKA CO., LTD. បានក្លាយជាអ្នកច្នៃប្រឌិតក្នុងការនាំចូលនិងនាំចេញផលិតផលម្ដាយនិងកូនជាងមួយទសវត្សរ៍។ ចាប់ផ្តើមជាអាជីវកម្មគ្រួសារតូចមួយ យើងបានធំទូលាយជាឈ្មោះដែលគួរឱ្យទុកចិត្តក្នុងឧស្សាហកម្ម ដោយបម្រើអតិថិជនទូទាំងប្រទេសកម្ពុជានិងក្រៅប្រទេស។ ការធ្វើដំណើររបស់យើងបានចាប់ផ្តើមដោយបេសកកម្មសាមញ្ញ៖ ផ្តល់ផលិតផលដែលមានគុណភាពខ្ពស់ មានសុវត្ថិភាពសម្រាប់ម្ដាយនិងកូនក្នុងតម្លៃសមរម្យ។ តាមរយៈការប្តេជ្ញាចិត្តនិងការខិតខំយ៉ាងខ្លាំង យើងបានបង្កើតភាពជាដៃគូរឹងមាំជាមួយអ្នកផ្គត់ផ្គង់ទូទាំងពិភពលោក និងបានបង្កើតកេរ្តិ៍ឈ្មោះសម្រាប់ភាពល្អឥតខ្ចោះ។',
+    kh: 'បានបង្កើតនៅទីក្រុងភ្នំពេញ ប្រទេសកម្ពុជា CAM NAKA CO., LTD. បានក្លាយជាអ្នកច្នៃប្រឌិតក្នុងការនាំចូលនិងនាំចេញផលិតផលមាតា និងទារកជាងមួយទសវត្សរ៍។ ចាប់ផ្តើមជាអាជីវកម្មគ្រួសារតូចមួយ យើងបានធំទូលាយជាឈ្មោះដែលគួរឱ្យទុកចិត្តក្នុងឧស្សាហកម្ម ដោយបម្រើអតិថិជនទូទាំងប្រទេសកម្ពុជានិងក្រៅប្រទេស។ ការធ្វើដំណើររបស់យើងបានចាប់ផ្តើមដោយបេសកកម្មសាមញ្ញ៖ ផ្តល់ផលិតផលដែលមានគុណភាពខ្ពស់ មានសុវត្ថិភាពសម្រាប់ម្ដាយនិងកូនក្នុងតម្លៃសមរម្យ។ តាមរយៈការប្តេជ្ញាចិត្តនិងការខិតខំយ៉ាងខ្លាំង យើងបានបង្កើតភាពជាដៃគូរឹងមាំជាមួយអ្នកផ្គត់ផ្គង់ទូទាំងពិភពលោក និងបានបង្កើតកេរ្តិ៍ឈ្មោះសម្រាប់ភាពល្អឥតខ្ចោះ។',
   },
   ourMission: {
     en: 'Our Mission',
@@ -58,7 +58,7 @@ const translations: Translations = {
   },
   missionText: {
     en: 'Our mission is to be the leading provider of mother and baby products in Cambodia, offering a wide range of high-quality items that promote health, safety, and happiness for families.',
-    kh: 'បេសកកម្មរបស់យើងគឺដើម្បីក្លាយជាអ្នកផ្តល់ផលិតផលម្ដាយនិងកូនដ៏ឈានមុខគេនៅកម្ពុជា ដោយផ្តល់ជួរផលិតផលដែលមានគុណភាពខ្ពស់ដែលលើកកម្ពស់សុខភាព សុវត្ថិភាព និងសុភមង្គលសម្រាប់គ្រួសារ។',
+    kh: 'បេសកកម្មរបស់យើងគឺដើម្បីក្លាយជាអ្នកផ្តល់ផលិតផលមាតា និងទារកដ៏ឈានមុខគេនៅកម្ពុជា ដោយផ្តល់ជួរផលិតផលដែលមានគុណភាពខ្ពស់ដែលលើកកម្ពស់សុខភាព សុវត្ថិភាព និងសុភមង្គលសម្រាប់គ្រួសារ។',
   },
   ourValues: {
     en: 'Our Values',
@@ -122,7 +122,7 @@ const translations: Translations = {
   },
   brandsIntro: {
     en: 'Discover trusted brands we work with to bring the best for mothers and babies.',
-    kh: 'ស្វែងយល់អំពីម៉ាកដែលយើងជឿទុកចិត្ត ដើម្បីនាំមកនូវផលិតផលល្អបំផុតសម្រាប់ម្ដាយ និងទារក។',
+    kh: 'ស្វែងយល់អំពីម៉ាកដែលយើងជឿទុកចិត្ត ដើម្បីនាំមកនូវផលិតផលល្អបំផុតសម្រាប់មាតា និងទារក។',
   },
   productsIntro: {
     en: 'At CAM NAKA CO., LTD., we offer a wide range of high-quality mother and baby products imported from trusted manufacturers worldwide. Browse our categories below to discover products that meet your needs.',
@@ -217,8 +217,8 @@ const translations: Translations = {
     kh: 'ផ្ញើសារ',
   },
   footerText: {
-    en: '&copy; 2024 CAM NAKA CO., LTD. All rights reserved.',
-    kh: '&copy; 2024 ក្រុមហ៊ុន កែម ណាកា កូ.ឡិមីធីត រក្សាសិទ្ធិទាំងអស់។',
+    en: 'Copyright © 2025-2026 CAM NAKA CO., LTD. All rights reserved.',
+    kh: 'រក្សាសិទ្ធិ © 2025-2026 ក្រុមហ៊ុន កែម ណាកា កូ.ឡិមីធីត រក្សាសិទ្ធិគ្រប់យ៉ាង។',
   },
   quickLinks: {
     en: 'Quick Links',
