@@ -94,7 +94,7 @@ const translations: Translations = {
   },
   visionText: {
     en: 'To be the most trusted and preferred partner for mother and baby products in Cambodia and Southeast Asia, creating a positive impact on families by providing access to the best products and services.',
-    kh: 'ដើម្បីក្លាយជាដៃគូដែលគួរឱ្យទុកចិត្តនិងចូលចិត្តបំផុតសម្រាប់ផលិតផលម្ដាយនិងកូននៅកម្ពុជានិងអាស៊ីអាគ្នេយ៍ ដោយបង្កើតឥទានល្អលើគ្រួសារដោយផ្តល់សិទ្ធិចូលប្រើផលិតផលនិងសេវាកម្មល្អបំផុត។',
+    kh: 'ដើម្បីក្លាយជាដៃគូដែលគួរឱ្យទុកចិត្តនិងចូលចិត្តបំផុតសម្រាប់ផលិតផលមាតា និងទារកនៅកម្ពុជានិងអាស៊ីអាគ្នេយ៍ ដោយបង្កើតឥទានល្អលើគ្រួសារដោយផ្តល់សិទ្ធិចូលប្រើផលិតផលនិងសេវាកម្មល្អបំផុត។',
   },
   ceoMessageTitle: {
     en: 'Message from Our CEO',
@@ -102,7 +102,7 @@ const translations: Translations = {
   },
   ceoMessageText: {
     en: 'At CAM NAKA CO., LTD., we believe every mother and child deserves safe, reliable, and affordable products. Our team is committed to building long-term partnerships and delivering outstanding value to families across Cambodia and the region. Thank you for trusting us on your journey.',
-    kh: 'នៅ CAM NAKA CO., LTD. យើងជឿជាក់ថា ម្តាយ និងកូនគ្រប់រូបគួរតែទទួលបានផលិតផលដែលមានសុវត្ថិភាព ជឿជាក់ និងមានតម្លៃសមរម្យ។ ក្រុមការងារយើងប្តេជ្ញាចិត្តក្នុងការកសាងដៃគូរយៈពេលវែង និងផ្តល់តម្លៃល្អឥតខ្ចោះទៅកាន់គ្រួសារទូទាំងកម្ពុជា និងតំបន់។ សូមអរគុណចំពោះការជឿទុកចិត្តលើយើងក្នុងដំណើររបស់អ្នក។',
+    kh: 'នៅ CAM NAKA CO., LTD. យើងជឿជាក់ថា មាតា និងទារកគ្រប់រូបគួរតែទទួលបានផលិតផលដែលមានសុវត្ថិភាព ជឿជាក់ និងមានតម្លៃសមរម្យ។ ក្រុមការងារយើងប្តេជ្ញាចិត្តក្នុងការកសាងដៃគូរយៈពេលវែង និងផ្តល់តម្លៃល្អឥតខ្ចោះទៅកាន់គ្រួសារទូទាំងកម្ពុជា និងតំបន់។ សូមអរគុណចំពោះការជឿទុកចិត្តលើយើងក្នុងដំណើររបស់អ្នក។',
   },
   ceoName: {
     en: 'Chenda Sok',
@@ -126,7 +126,7 @@ const translations: Translations = {
   },
   productsIntro: {
     en: 'At CAM NAKA CO., LTD., we offer a wide range of high-quality mother and baby products imported from trusted manufacturers worldwide. Browse our categories below to discover products that meet your needs.',
-    kh: 'នៅ CAM NAKA CO., LTD. យើងផ្តល់ជួរផលិតផលម្ដាយនិងកូនដែលមានគុណភាពខ្ពស់ដែលនាំចូលពីអ្នកផលិតដែលគួរឱ្យទុកចិត្តទូទាំងពិភពលោក។ រកមើលប្រភេទខាងក្រោមដើម្បីរកឃើញផលិតផលដែលត្រូវនឹងតម្រូវការរបស់អ្នក។',
+    kh: 'នៅ CAM NAKA CO., LTD. យើងផ្តល់ជួរផលិតផលមាតានិងទារកដែលមានគុណភាពខ្ពស់ដែលនាំចូលពីអ្នកផលិតដែលគួរឱ្យទុកចិត្តទូទាំងពិភពលោក។ រកមើលប្រភេទខាងក្រោមដើម្បីរកឃើញផលិតផលដែលត្រូវនឹងតម្រូវការរបស់អ្នក។',
   },
   babyClothing: {
     en: 'Baby Clothing',
@@ -162,11 +162,11 @@ const translations: Translations = {
   },
   babyCare: {
     en: 'Baby Care Products',
-    kh: 'ផលិតផលថែទាំកូន',
+    kh: 'ផលិតផលថែទាំទារក',
   },
   babyCareDesc: {
     en: 'Soaps, lotions, and care items to keep your baby healthy and happy.',
-    kh: 'សាប៊ូ ឡូស្យុង និងវត្ថុថែទាំដើម្បីរក្សាកូនអ្នកឱ្យមានសុខភាពល្អនិងសប្បាយ។',
+    kh: 'សាប៊ូ ឡូស្យុង និងវត្ថុថែទាំដើម្បីរក្សាទារក ឱ្យមានសុខភាពល្អនិងសប្បាយ។',
   },
   strollers: {
     en: 'Strollers & Car Seats',
@@ -218,7 +218,7 @@ const translations: Translations = {
   },
   footerText: {
     en: 'Copyright © 2025-2026 CAM NAKA CO., LTD. All rights reserved.',
-    kh: 'រក្សាសិទ្ធិ © 2025-2026 ក្រុមហ៊ុន កែម ណាកា កូ.ឡិមីធីត រក្សាសិទ្ធិគ្រប់យ៉ាង។',
+    kh: 'រក្សាសិទ្ធិ © 2025-2026 ក្រុមហ៊ុន ខេម ណាកា ខូ.អិលធីឌី រក្សាសិទ្ធិគ្រប់យ៉ាង។',
   },
   quickLinks: {
     en: 'Quick Links',
