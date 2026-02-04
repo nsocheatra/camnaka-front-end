@@ -10,43 +10,43 @@ export default function Products() {
     () => [
       {
         name: "Pampers",
-        logo: "https://via.placeholder.com/220x120?text=Pampers",
+        logo: "logos/pampers.png",
       },
       {
         name: "Huggies",
-        logo: "https://via.placeholder.com/220x120?text=Huggies",
+        logo: "logos/huggies.png",
       },
       {
         name: "Johnson's",
-        logo: "https://via.placeholder.com/220x120?text=Johnsons",
+        logo: "logos/johnson.png",
       },
       {
         name: "Aptamil",
-        logo: "https://via.placeholder.com/220x120?text=Aptamil",
+        logo: "logos/aptamil.png",
       },
       {
         name: "Philips Avent",
-        logo: "https://via.placeholder.com/220x120?text=Avent",
+        logo: "logos/avent.png",
       },
       {
         name: "Nestle",
-        logo: "https://via.placeholder.com/220x120?text=Nestle",
+        logo: "logos/nestle.png",
       },
       {
         name: "Gerber",
-        logo: "https://via.placeholder.com/220x120?text=Gerber",
+        logo: "logos/gerber.png",
       },
       {
         name: "Pigeon",
-        logo: "https://via.placeholder.com/220x120?text=Pigeon",
+        logo: "logos/pigeon.png",
       },
       {
         name: "Chicco",
-        logo: "https://via.placeholder.com/220x120?text=Chicco",
+        logo: "logos/chicco.png",
       },
       {
         name: "Mustela",
-        logo: "https://via.placeholder.com/220x120?text=Mustela",
+        logo: "logos/mustela.png",
       },
     ],
     []
@@ -65,32 +65,32 @@ export default function Products() {
     {
       nameKey: 'babyClothing',
       descKey: 'babyClothingDesc',
-      image: "https://via.placeholder.com/300x200?text=Baby+Clothing"
+      image: "images/babyCloth.png"
     },
     {
       nameKey: 'babyToys',
       descKey: 'babyToysDesc',
-      image: "https://via.placeholder.com/300x200?text=Baby+Toys"
+      image: "images/babytoys.png"
     },
     {
       nameKey: 'diapersWipes',
       descKey: 'diapersWipesDesc',
-      image: "https://via.placeholder.com/300x200?text=Diapers"
+      image: "images/moony.png"
     },
     {
-      nameKey: 'feedingSupplies',
-      descKey: 'feedingSuppliesDesc',
-      image: "https://via.placeholder.com/300x200?text=Feeding+Supplies"
+      nameKey: 'baby powder',
+      descKey: 'babyPowderDesc',
+      image: "images/ricebabypowder.png"
     },
     {
       nameKey: 'babyCare',
       descKey: 'babyCareDesc',
-      image: "https://via.placeholder.com/300x200?text=Baby+Care"
+      image: "images/babycare.png"
     },
     {
-      nameKey: 'strollers',
-      descKey: 'strollersDesc',
-      image: "https://via.placeholder.com/300x200?text=Strollers"
+      nameKey: 'milkpowder',
+      descKey: 'milkPowderDesc',
+      image: "images/milkPowder.png"
     }
   ];
 
@@ -173,12 +173,6 @@ export default function Products() {
               ))}
             </div>
           </div>
-        </div>
-
-        <div className="mt-16 text-center">
-          <p className="text-foreground/60">
-            {t('placeholderNote')}
-          </p>
         </div>
       </div>
     </div>

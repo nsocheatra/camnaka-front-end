@@ -9,17 +9,17 @@ export default function Home() {
   const slides = useMemo(
     () => [
       {
-        src: "https://via.placeholder.com/1200x500?text=Mother+%26+Baby+Products",
+        src: "images/mother&baby.png",
         alt: "Mother and Baby Products",
         caption: t("products"),
       },
       {
-        src: "https://via.placeholder.com/1200x500?text=Baby+Clothes",
+        src: "images/babyClothings.png",
         alt: "Baby Clothes",
         caption: t("products"),
       },
       {
-        src: "https://via.placeholder.com/1200x500?text=Baby+Toys",
+        src: "images/toys&kids.png",
         alt: "Baby Toys",
         caption: t("products"),
       },
@@ -31,17 +31,17 @@ export default function Home() {
       {
         nameKey: "babyClothing",
         descKey: "babyClothingDesc",
-        image: "https://via.placeholder.com/300x200?text=Baby+Clothing",
+        image: "images/babyClothing.png",
       },
       {
         nameKey: "diapersWipes",
         descKey: "diapersWipesDesc",
-        image: "https://via.placeholder.com/300x200?text=Diapers",
+        image: "images/babyDiapers.png",
       },
       {
         nameKey: "strollers",
         descKey: "strollersDesc",
-        image: "https://via.placeholder.com/300x200?text=Strollers",
+        image: "images/Strollers.png",
       },
     ],
     []

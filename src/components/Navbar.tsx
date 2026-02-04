@@ -34,11 +34,12 @@ export default function Navbar() {
               <Link href="/" className="border-transparent text-primary-foreground/80 hover:border-accent hover:text-primary-foreground inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium transition-colors">
                 {t('home')}
               </Link>
-              <Link href="/about" className="border-transparent text-primary-foreground/80 hover:border-accent hover:text-primary-foreground inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium transition-colors">
-                {t('about')}
-              </Link>
+              
               <Link href="/products" className="border-transparent text-primary-foreground/80 hover:border-accent hover:text-primary-foreground inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium transition-colors">
                 {t('products')}
+              </Link>
+              <Link href="/about" className="border-transparent text-primary-foreground/80 hover:border-accent hover:text-primary-foreground inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium transition-colors">
+                {t('about')}
               </Link>
               <Link href="/contact" className="border-transparent text-primary-foreground/80 hover:border-accent hover:text-primary-foreground inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium transition-colors">
                 {t('contact')}

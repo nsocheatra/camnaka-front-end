@@ -105,8 +105,8 @@ const translations: Translations = {
     kh: 'នៅ CAM NAKA CO., LTD. យើងជឿជាក់ថា មាតា និងទារកគ្រប់រូបគួរតែទទួលបានផលិតផលដែលមានសុវត្ថិភាព ជឿជាក់ និងមានតម្លៃសមរម្យ។ ក្រុមការងារយើងប្តេជ្ញាចិត្តក្នុងការកសាងដៃគូរយៈពេលវែង និងផ្តល់តម្លៃល្អឥតខ្ចោះទៅកាន់គ្រួសារទូទាំងកម្ពុជា និងតំបន់។ សូមអរគុណចំពោះការជឿទុកចិត្តលើយើងក្នុងដំណើររបស់អ្នក។',
   },
   ceoName: {
-    en: 'Chenda Sok',
-    kh: 'សុខ ចន្ទា',
+    en: 'Soy Somros',
+    kh: 'សយ​ សម្រស់',
   },
   ceoTitle: {
     en: 'Chief Executive Officer',
@@ -176,10 +176,10 @@ const translations: Translations = {
     en: 'Safe and convenient transportation solutions for babies and toddlers.',
     kh: 'ដំណោះស្រាយការដឹកជញ្ជូនដែលមានសុវត្ថិភាពនិងងាយស្រួលសម្រាប់កូននិងក្មេង។',
   },
-  placeholderNote: {
-    en: '* Images are placeholders. Actual products may vary. Contact us for specific inquiries and current stock.',
-    kh: '* រូបភាពគឺជាកន្លែងដាក់។ ផលិតផលពិតអាចប្រែប្រួល។ ទំនាក់ទំនងមកយើងសម្រាប់សំណួរជាក់លាក់និងស្តុកបច្ចុប្បន្ន។',
-  },
+  // placeholderNote: {
+  //   en: '* Images are placeholders. Actual products may vary. Contact us for specific inquiries and current stock.',
+  //   kh: '* រូបភាពគឺជាកន្លែងដាក់។ ផលិតផលពិតអាចប្រែប្រួល។ ទំនាក់ទំនងមកយើងសម្រាប់សំណួរជាក់លាក់និងស្តុកបច្ចុប្បន្ន។',
+  // },
   getInTouch: {
     en: 'Get in Touch',
     kh: 'ទំនាក់ទំនងមកយើង',
