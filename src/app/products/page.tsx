@@ -103,7 +103,7 @@ export default function Products() {
   }, [brandPages.length]);
 
   return (
-    <div className="min-h-screen py-20 bg-background">
+    <div className="min-h-screen py-20 bg-background page-animate">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <h1 className="text-4xl font-bold text-center text-foreground mb-12 drop-shadow-sm">{t('ourProducts')}</h1>
         <p className="text-lg text-foreground/80 text-center mb-12 max-w-3xl mx-auto">

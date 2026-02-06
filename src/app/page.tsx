@@ -57,7 +57,7 @@ export default function Home() {
   }, [slides.length]);
 
   return (
-    <div className="min-h-screen bg-background">
+    <div className="min-h-screen bg-background page-animate">
       {/* Hero Section */}
       <section className="relative bg-primary dark:bg-accent-foreground py-20 shadow-lg">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
