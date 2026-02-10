@@ -128,6 +128,14 @@ const translations: Translations = {
     en: 'At CAM NAKA CO., LTD., we offer a wide range of high-quality mother and baby products imported from trusted manufacturers worldwide. Browse our categories below to discover products that meet your needs.',
     kh: 'នៅ CAM NAKA CO., LTD. យើងផ្តល់ជួរផលិតផលមាតានិងទារកដែលមានគុណភាពខ្ពស់ដែលនាំចូលពីអ្នកផលិតដែលគួរឱ្យទុកចិត្តទូទាំងពិភពលោក។ រកមើលប្រភេទខាងក្រោមដើម្បីរកឃើញផលិតផលដែលត្រូវនឹងតម្រូវការរបស់អ្នក។',
   },
+  backToProducts: {
+    en: 'Back to Products',
+    kh: 'ត្រលប់ទៅទំព័រផលិតផល',
+  },
+  categoryNotFound: {
+    en: 'Category not found',
+    kh: 'រកមិនឃើញប្រភេទផលិតផល',
+  },
   babyClothing: {
     en: 'Baby Clothing',
     kh: 'សម្លៀកបំពាក់កូន',
@@ -152,6 +160,10 @@ const translations: Translations = {
     en: 'High-quality diapers and baby wipes for ultimate comfort and cleanliness.',
     kh: 'ខោនិងក្រដាសជូតដែលមានគុណភាពខ្ពស់សម្រាប់ភាពស្រួលស្មានិងភាពស្អាត។',
   },
+  babyPowder: {
+    en: 'Baby Powder',
+    kh: 'ម្សៅទារក',
+  },
   feedingSupplies: {
     en: 'Feeding Supplies',
     kh: 'សម្ភារៈចិញ្ចឹម',
@@ -167,6 +179,10 @@ const translations: Translations = {
   babyCareDesc: {
     en: 'Soaps, lotions, and care items to keep your baby healthy and happy.',
     kh: 'សាប៊ូ ឡូស្យុង និងវត្ថុថែទាំដើម្បីរក្សាទារក ឱ្យមានសុខភាពល្អនិងសប្បាយ។',
+  },
+  milkPowder: {
+    en: 'Milk Powder',
+    kh: 'ទឹកដោះគោម្សៅ',
   },
   strollers: {
     en: 'Strollers & Car Seats',

@@ -3,12 +3,26 @@
 import Link from 'next/link';
 import { useLanguage } from '../contexts/LanguageContext';
 import { useState, useEffect } from 'react';
-import { Menu, X } from 'lucide-react';
+import { ChevronDown, Menu, X } from 'lucide-react';
+import {
+  DropdownMenu,
+  DropdownMenuContent,
+  DropdownMenuItem,
+  DropdownMenuTrigger,
+} from './ui/dropdown-menu';
 
 export default function Navbar() {
   const { language, setLanguage, t } = useLanguage();
   const [darkMode, setDarkMode] = useState(false);
   const [mobileOpen, setMobileOpen] = useState(false);
+  const productSubmenu = [
+    { key: 'babyClothing', href: '/products/baby-clothing' },
+    { key: 'babyToys', href: '/products/baby-toys' },
+    { key: 'diapersWipes', href: '/products/diapers-wipes' },
+    { key: 'babyPowder', href: '/products/baby-powder' },
+    { key: 'babyCare', href: '/products/baby-care' },
+    { key: 'milkPowder', href: '/products/milk-powder' },
+  ];
 
   useEffect(() => {
     if (darkMode) {
@@ -35,9 +49,41 @@ export default function Navbar() {
                 {t('home')}
               </Link>
               
-              <Link href="/products" className="border-transparent text-primary-foreground/80 hover:border-accent hover:text-primary-foreground inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium transition-colors">
-                {t('products')}
-              </Link>
+              <DropdownMenu>
+                <DropdownMenuTrigger asChild>
+                  <button
+                    type="button"
+                    className="border-transparent text-primary-foreground/80 hover:border-accent hover:text-primary-foreground inline-flex items-center gap-1 px-1 pt-1 border-b-2 text-sm font-medium transition-colors"
+                  >
+                    {t('products')}
+                    <ChevronDown size={16} aria-hidden="true" />
+                  </button>
+                </DropdownMenuTrigger>
+                <DropdownMenuContent
+                  align="center"
+                  className="w-56 border-primary-foreground/20 bg-primary text-primary-foreground shadow-xl dark:border-primary/30 dark:bg-accent-foreground"
+                >
+                  <DropdownMenuItem
+                    asChild
+                    className="focus:bg-primary-foreground/15 focus:text-primary-foreground dark:focus:bg-primary/20"
+                  >
+                    <Link href="/products" className="w-full">
+                      {t('products')}
+                    </Link>
+                  </DropdownMenuItem>
+                  {productSubmenu.map((item) => (
+                    <DropdownMenuItem
+                      key={item.href}
+                      asChild
+                      className="focus:bg-primary-foreground/15 focus:text-primary-foreground dark:focus:bg-primary/20"
+                    >
+                      <Link href={item.href} className="w-full">
+                        {t(item.key)}
+                      </Link>
+                    </DropdownMenuItem>
+                  ))}
+                </DropdownMenuContent>
+              </DropdownMenu>
               <Link href="/about" className="border-transparent text-primary-foreground/80 hover:border-accent hover:text-primary-foreground inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium transition-colors">
                 {t('about')}
               </Link>
@@ -90,13 +136,27 @@ export default function Navbar() {
             >
               {t('about')}
             </Link>
-            <Link
-              href="/products"
-              className="block text-primary-foreground/90 hover:text-accent transition-colors"
-              onClick={() => setMobileOpen(false)}
-            >
-              {t('products')}
-            </Link>
+            <div>
+              <Link
+                href="/products"
+                className="block text-primary-foreground/90 hover:text-accent transition-colors"
+                onClick={() => setMobileOpen(false)}
+              >
+                {t('products')}
+              </Link>
+              <div className="mt-2 space-y-1 border-l border-primary-foreground/20 pl-3">
+                {productSubmenu.map((item) => (
+                  <Link
+                    key={item.href}
+                    href={item.href}
+                    className="block text-primary-foreground/80 hover:text-accent transition-colors text-sm"
+                    onClick={() => setMobileOpen(false)}
+                  >
+                    {t(item.key)}
+                  </Link>
+                ))}
+              </div>
+            </div>
             <Link
               href="/contact"
               className="block text-primary-foreground/90 hover:text-accent transition-colors"

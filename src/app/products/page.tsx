@@ -1,6 +1,7 @@
 'use client';
 
 import Image from "next/image";
+import Link from "next/link";
 import { useEffect, useMemo, useState } from "react";
 import { useLanguage } from "../../contexts/LanguageContext";
 
@@ -65,32 +66,38 @@ export default function Products() {
     {
       nameKey: 'babyClothing',
       descKey: 'babyClothingDesc',
-      image: "images/babyCloth.png"
+      image: "images/babyCloth.png",
+      slug: 'baby-clothing',
     },
     {
       nameKey: 'babyToys',
       descKey: 'babyToysDesc',
-      image: "images/babytoys.png"
+      image: "images/babytoys.png",
+      slug: 'baby-toys',
     },
     {
       nameKey: 'diapersWipes',
       descKey: 'diapersWipesDesc',
-      image: "images/moony.png"
+      image: "images/moony.png",
+      slug: 'diapers-wipes',
     },
     {
-      nameKey: 'baby powder',
+      nameKey: 'babyPowder',
       descKey: 'babyPowderDesc',
-      image: "images/ricebabypowder.png"
+      image: "images/ricebabypowder.png",
+      slug: 'baby-powder',
     },
     {
       nameKey: 'babyCare',
       descKey: 'babyCareDesc',
-      image: "images/babycare.png"
+      image: "images/babycare.png",
+      slug: 'baby-care',
     },
     {
-      nameKey: 'milkpowder',
+      nameKey: 'milkPowder',
       descKey: 'milkPowderDesc',
-      image: "images/milkPowder.png"
+      image: "images/milkPowder.png",
+      slug: 'milk-powder',
     }
   ];
 
@@ -112,13 +119,20 @@ export default function Products() {
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {categories.map((category, index) => (
-            <div key={index} className="bg-card text-card-foreground rounded-lg shadow-md overflow-hidden hover:shadow-xl hover:scale-105 transition-all duration-300 border-t-4 border-primary hover:border-t-8">
-              <Image src={category.image} alt={t(category.nameKey)} width={300} height={200} className="w-full h-48 object-cover" unoptimized />
-              <div className="p-6">
-                <h3 className="text-xl font-semibold text-foreground mb-2">{t(category.nameKey)}</h3>
-                <p className="text-foreground/80">{t(category.descKey)}</p>
+            <Link
+              key={index}
+              href={`/products/${category.slug}`}
+              className="group block"
+              aria-label={`${t(category.nameKey)} ${t('products')}`}
+            >
+              <div className="bg-card text-card-foreground rounded-lg shadow-md overflow-hidden transition-all duration-300 border-t-4 border-primary group-hover:shadow-xl group-hover:scale-105 group-hover:border-t-8">
+                <Image src={category.image} alt={t(category.nameKey)} width={300} height={200} className="w-full h-48 object-cover" unoptimized />
+                <div className="p-6">
+                  <h3 className="text-xl font-semibold text-foreground mb-2">{t(category.nameKey)}</h3>
+                  <p className="text-foreground/80">{t(category.descKey)}</p>
+                </div>
               </div>
-            </div>
+            </Link>
           ))}
         </div>
 
