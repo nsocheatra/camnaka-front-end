@@ -8,7 +8,7 @@ export default function About() {
   return (
     <div className="min-h-screen py-20 bg-background page-animate">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <h1 className="text-4xl font-bold text-center text-foreground mb-16 drop-shadow-sm">{t('about')} {t('companyName')}</h1>
+        <h1 className="text-4xl font-bold text-center text-foreground mb-16 drop-shadow-sm">{t("About")} {t('companyName')}</h1>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
           <div className="rounded-2xl bg-card text-card-foreground p-6 shadow-smhover:shadow-lg transition-shadow border-t-4 border-primary hover:scale-105  duration-300">
