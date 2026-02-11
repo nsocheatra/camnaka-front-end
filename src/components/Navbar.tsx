@@ -63,14 +63,14 @@ export default function Navbar() {
                   align="center"
                   className="w-56 border-primary-foreground/20 bg-primary text-primary-foreground shadow-xl dark:border-primary/30 dark:bg-accent-foreground"
                 >
-                  <DropdownMenuItem
-                    asChild
+                  {/* <DropdownMenuItem
+                    asChildផលិតផល
                     className="focus:bg-primary-foreground/15 focus:text-primary-foreground dark:focus:bg-primary/20"
                   >
                     <Link href="/products" className="w-full">
                       {t('products')}
                     </Link>
-                  </DropdownMenuItem>
+                  </DropdownMenuItem> */}
                   {productSubmenu.map((item) => (
                     <DropdownMenuItem
                       key={item.href}
